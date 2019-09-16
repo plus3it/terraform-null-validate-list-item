@@ -5,3 +5,11 @@ update_configs:
   - package_manager: "terraform"
     directory: "/"
     update_schedule: "daily"
+
+  - package_manager: "terraform"
+    directory: "/tests/valid_item"
+    update_schedule: "daily"
+
+  - package_manager: "go:modules"
+    directory: "/tests"
+    update_schedule: "daily"
