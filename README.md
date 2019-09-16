@@ -6,8 +6,8 @@ Terraform module that will validate that a specified items is within the list of
 
 | Name | Description | Type | Default | Required |
 |------|-------------|:----:|:-----:|:-----:|
-| item | Name of item to validate | string | `""` | no |
-| name | Name of the validation test | string | `""` | no |
+| item | Name of item to validate | string | `"null"` | no |
+| name | Name of the validation test | string | `"null"` | no |
 | valid\_items | List of valid items to validate against | list | `<list>` | no |
 
 ## Outputs

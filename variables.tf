@@ -7,11 +7,11 @@ variable "valid_items" {
 variable "item" {
   description = "Name of item to validate"
   type        = "string"
-  default     = ""
+  default     = null
 }
 
 variable "name" {
   description = "Name of the validation test"
   type        = "string"
-  default     = ""
+  default     = null
 }
