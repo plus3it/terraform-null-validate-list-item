@@ -8,7 +8,7 @@ Terraform module that will validate that a specified items is within the list of
 |------|-------------|:----:|:-----:|:-----:|
 | item | Name of item to validate | string | `""` | no |
 | name | Name of the validation test | string | `""` | no |
-| valid\_items | List of valid items to validate against | list | `<list>` | no |
+| valid\_items | List of valid items to validate against | list(string) | `<list>` | no |
 
 ## Outputs
 
