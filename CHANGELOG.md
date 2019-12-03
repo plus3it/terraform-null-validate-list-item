@@ -5,9 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
 
+### 1.0.3
+
+**Commit Delta**: [Change from 1.0.2 release](https://github.com/plus3it/terraform-github-repo/compare/1.0.2...1.0.3)
+
+**Released**: 2019.11.05
+
+**Summary**:
+
+* Change string variable defaults from `null` to `""` to mitigate a `terraform import` race condition
+* Makes variable types terraform 0.12.14+ compliant
+
 ### 1.0.2
 
-**Commit Delta**: [Change from 1.0.01release](https://github.com/plus3it/terraform-github-repo/compare/1.0.1...1.0.2)
+**Commit Delta**: [Change from 1.0.1 release](https://github.com/plus3it/terraform-github-repo/compare/1.0.1...1.0.2)
 
 **Released**: 2019.11.05
 
