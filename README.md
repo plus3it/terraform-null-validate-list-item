@@ -2,13 +2,20 @@
 
 Terraform module that will validate that a specified items is within the list of valid items
 
+<!-- BEGIN TFDOCS -->
+## Providers
+
+| Name | Version |
+|------|---------|
+| null | n/a |
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|:----:|:-----:|:-----:|
-| item | Name of item to validate | string | `""` | no |
-| name | Name of the validation test | string | `""` | no |
-| valid\_items | List of valid items to validate against | list(string) | `<list>` | no |
+|------|-------------|------|---------|:-----:|
+| item | Name of item to validate | `string` | `""` | no |
+| name | Name of the validation test | `string` | `""` | no |
+| valid\_items | List of valid items to validate against | `list(string)` | `[]` | no |
 
 ## Outputs
 
@@ -19,3 +26,4 @@ Terraform module that will validate that a specified items is within the list of
 | valid\_items | The list of valid items |
 | validation\_name | The name of this validation |
 
+<!-- END TFDOCS -->
