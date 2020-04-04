@@ -3,6 +3,10 @@
 Terraform module that will validate that a specified items is within the list of valid items
 
 <!-- BEGIN TFDOCS -->
+## Requirements
+
+No requirements.
+
 ## Providers
 
 | Name | Version |
@@ -12,7 +16,7 @@ Terraform module that will validate that a specified items is within the list of
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:-----:|
+|------|-------------|------|---------|:--------:|
 | item | Name of item to validate | `string` | `""` | no |
 | name | Name of the validation test | `string` | `""` | no |
 | valid\_items | List of valid items to validate against | `list(string)` | `[]` | no |
