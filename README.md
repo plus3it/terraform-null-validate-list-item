@@ -17,9 +17,9 @@ No requirements.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| item | Name of item to validate | `string` | `""` | no |
-| name | Name of the validation test | `string` | `""` | no |
-| valid\_items | List of valid items to validate against | `list(string)` | `[]` | no |
+| item | Name of item to validate | `string` | n/a | yes |
+| name | Name of the validation test | `string` | n/a | yes |
+| valid\_items | List of valid items to validate against | `list(string)` | n/a | yes |
 
 ## Outputs
 

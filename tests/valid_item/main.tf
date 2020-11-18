@@ -1,4 +1,4 @@
-module "valid_item" {
+module valid_item {
   source = "../../"
 
   valid_items = ["alpha", "beta", "gamma"]

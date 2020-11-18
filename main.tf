@@ -3,7 +3,7 @@ locals {
   is_valid = contains(var.valid_items, var.item)
 }
 
-resource "null_resource" "invalid_item" {
+resource null_resource invalid_item {
   # forces/outputs an error when var.item is invalid
   count = ! local.is_valid ? 1 : 0
 
