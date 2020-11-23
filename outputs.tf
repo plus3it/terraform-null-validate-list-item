@@ -1,19 +1,19 @@
-output "is_valid" {
+output is_valid {
   description = "Whether the item is valid or not"
-  value       = "${local.is_valid}"
+  value       = local.is_valid
 }
 
-output "item" {
+output item {
   description = "The item"
-  value       = "${var.item}"
+  value       = var.item
 }
 
-output "valid_items" {
+output valid_items {
   description = "The list of valid items"
-  value       = "${var.valid_items}"
+  value       = var.valid_items
 }
 
-output "validation_name" {
+output validation_name {
   description = "The name of this validation"
-  value       = "${var.name}"
+  value       = var.name
 }

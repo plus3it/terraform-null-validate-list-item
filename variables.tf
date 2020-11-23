@@ -1,17 +1,14 @@
-variable "valid_items" {
+variable valid_items {
   description = "List of valid items to validate against"
   type        = list(string)
-  default     = []
 }
 
-variable "item" {
+variable item {
   description = "Name of item to validate"
   type        = string
-  default     = ""
 }
 
-variable "name" {
+variable name {
   description = "Name of the validation test"
   type        = string
-  default     = ""
 }
