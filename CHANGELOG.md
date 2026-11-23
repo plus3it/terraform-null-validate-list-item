@@ -5,9 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
 
+### 1.0.4
+
+**Commit Delta**: [Change from 1.0.3 release](https://github.com/plus3it/terraform-null-validate-list-item/compare/1.0.3...1.0.4)
+
+**Released**: 2020.11.23
+
+**Summary**:
+
+* Remove deprecated interpolation-only expressions
+* Remove the defaults from `valid_items`, `item`, and `name`, so they are now required
+
 ### 1.0.3
 
-**Commit Delta**: [Change from 1.0.2 release](https://github.com/plus3it/terraform-github-repo/compare/1.0.2...1.0.3)
+**Commit Delta**: [Change from 1.0.2 release](https://github.com/plus3it/terraform-null-validate-list-item/compare/1.0.2...1.0.3)
 
 **Released**: 2019.11.05
 
@@ -18,7 +29,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 
 ### 1.0.2
 
-**Commit Delta**: [Change from 1.0.1 release](https://github.com/plus3it/terraform-github-repo/compare/1.0.1...1.0.2)
+**Commit Delta**: [Change from 1.0.1 release](https://github.com/plus3it/terraform-null-validate-list-item/compare/1.0.1...1.0.2)
 
 **Released**: 2019.11.05
 
